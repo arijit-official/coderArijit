@@ -241,6 +241,7 @@ h6 {
 
 .active .line1 {
     transform: translate(0px, 11px)rotate(47deg);
+    transition: 0.4s;
 }
 
 .active .line2 {
@@ -249,7 +250,9 @@ h6 {
 
 .active .line3 {
     transform: translate(0px, -14px)rotate(-43deg);
+    transition: 0.4s;
 }
+
 
 /* media queery */
 
@@ -264,7 +267,7 @@ h6 {
     margin: 0px;
     padding: 0px;
     z-index: 1;
-    transition: 0.8;
+    transition: 0.4;
 }
 
 .menu li {
