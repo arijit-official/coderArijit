@@ -1549,7 +1549,7 @@ h6 {
     font-size: 25px;
 }
 
-.service_sec h4 {
+.service_box h4 {
     font-size: 20px;
     color: #fff;
     font-family: "Roboto", sans-serif;
@@ -1557,7 +1557,7 @@ h6 {
     margin-bottom: 15px;
 }
 
-.service_sec p {
+.service_box p {
     font-size: 15px;
     color: #fff;
     font-family: "Lato", sans-serif;
