@@ -1197,7 +1197,7 @@ h6 {
 
 .skill_heading h1::after {
     content: "";
-    width: 84px;
+    width: 75px;
     height: 2px;
     background-color: #2959B7;
     position: absolute;
@@ -1207,7 +1207,7 @@ h6 {
 
 .skill_heading h1::before {
     content: "";
-    width: 100px;
+    width: 105px;
     height: 2px;
     background-color: #3DF7C4;
     position: absolute;
