@@ -1691,3 +1691,8 @@ h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
+@media (max-width:575px) {
+    .contact_heading h1{
+         font-size: 25px;
+    }
+ }
