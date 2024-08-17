@@ -512,6 +512,7 @@ h6 {
         display: none;
     }
 }
+
 @media (max-width:320px) {
     .banner_content p {
         font-size: 15px;
@@ -995,6 +996,7 @@ h6 {
 .edu_padd_last {
     padding: 39px 35px;
 }
+
 .edu_details:hover {
     animation: bouncing 0.5s .3s;
 }
@@ -1315,20 +1317,22 @@ h6 {
         padding: 0px;
     }
 }
+
 @media (max-width:575px) {
-   .skill_heading h1{
+    .skill_heading h1 {
         font-size: 25px;
-   }
+    }
 }
 
 
 
 /* project section */
 
-.projects{
-    padding:50px 0px;
+.projects {
+    padding: 50px 0px;
     background-color: #353599;
 }
+
 .project_heading {
     margin: auto;
     width: fit-content;
@@ -1371,14 +1375,16 @@ h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
-.project_box{
+
+.project_box {
     height: 100%;
     background-color: #fff;
     padding: 30px;
     text-align: center;
     border-radius: 10px;
 }
-.project_box a{
+
+.project_box a {
     width: 50px;
     padding: 13px 0px;
     border-radius: 50px;
@@ -1386,24 +1392,29 @@ h6 {
     margin-bottom: 20px;
     display: inline-block;
 }
-#project_box_3{
+
+#project_box_3 {
     padding: 11.5px 0px;
 }
-.project_box a i{
+
+.project_box a i {
     color: #fff;
     font-size: 20px;
 }
-.project_box a .icon_size{
+
+.project_box a .icon_size {
     font-size: 25px;
 }
-.project_box h4{
+
+.project_box h4 {
     font-size: 20px;
-    color:#000;
+    color: #000;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin-bottom: 15px;
 }
-.project_box p{
+
+.project_box p {
     font-size: 15px;
     color: #212529;
     font-family: "Lato", sans-serif;
@@ -1415,35 +1426,40 @@ h6 {
 /* media query */
 
 @media (max-width:991px) {
-    .project_box_3{
+    .project_box_3 {
         margin-top: 30px;
     }
-    .project_box_4{
+
+    .project_box_4 {
         margin-top: 30px;
     }
 }
+
 @media (max-width:767px) {
-    .project_box{
+    .project_box {
         height: auto;
     }
-    .project_box_2{
+
+    .project_box_2 {
         margin-top: 30px;
     }
 }
+
 @media (max-width:575px) {
-    .project_heading h1{
-         font-size: 25px;
+    .project_heading h1 {
+        font-size: 25px;
     }
- }
+}
 
 
 /* service section */
 
 
-.service{
-    padding:50px 0px;
+.service {
+    padding: 50px 0px;
     background-color: #fff;
 }
+
 .service_heading {
     margin: auto;
     width: fit-content;
@@ -1486,26 +1502,32 @@ h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
-.service_box{
+
+.service_box {
     height: 100%;
     background-color: #fff;
     padding: 30px;
     text-align: center;
     border-radius: 10px;
 }
-.service_box_1{
+
+.service_box_1 {
     background-color: #285CB9;
 }
-.service_box_2{
+
+.service_box_2 {
     background-color: #353599;
 }
-.service_box_3{
+
+.service_box_3 {
     background-color: #0DA4C2;
 }
-.service_box_4{
+
+.service_box_4 {
     background-color: #275AB5;
 }
-.service_sec a{
+
+.service_sec a {
     width: 50px;
     padding: 13px 0px;
     border-radius: 50px;
@@ -1513,24 +1535,29 @@ h6 {
     margin-bottom: 20px;
     display: inline-block;
 }
-#service_box_3{
+
+#service_box_3 {
     padding: 11.5px 0px;
 }
-.service_sec a i{
+
+.service_sec a i {
     color: #285CB9;
     font-size: 20px;
 }
-.service_sec a .icon_size{
+
+.service_sec a .icon_size {
     font-size: 25px;
 }
-.service_sec h4{
+
+.service_sec h4 {
     font-size: 20px;
-    color:#fff;
+    color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin-bottom: 15px;
 }
-.service_sec p{
+
+.service_sec p {
     font-size: 15px;
     color: #fff;
     font-family: "Lato", sans-serif;
@@ -1542,34 +1569,39 @@ h6 {
 /* media query */
 
 @media (max-width:991px) {
-    .service_box_3{
+    .service_box_3 {
         margin-top: 30px;
     }
-    .service_box_4{
+
+    .service_box_4 {
         margin-top: 30px;
     }
 }
+
 @media (max-width:767px) {
-    .service_box{
+    .service_box {
         height: auto;
     }
-    .service_box_2{
+
+    .service_box_2 {
         margin-top: 30px;
     }
 }
+
 @media (max-width:575px) {
-    .service_heading h1{
-         font-size: 25px;
+    .service_heading h1 {
+        font-size: 25px;
     }
- }
+}
 
 
 /* contact section */
 
-.contact{
+.contact {
     background-color: rgb(13, 164, 194);
-    padding: 50px 0px   ;
+    padding: 50px 0px;
 }
+
 .contact_heading {
     margin: auto;
     width: fit-content;
@@ -1612,8 +1644,9 @@ h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
+
 @media (max-width:575px) {
-    .contact_heading h1{
-         font-size: 25px;
+    .contact_heading h1 {
+        font-size: 25px;
     }
- }
+}
