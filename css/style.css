@@ -1322,89 +1322,10 @@ h6 {
 }
 
 
+
 /* project section */
 
-#project {
-    background-color: rgba(54, 54, 157, 1);
-    padding: 50px 0px;
-}
-
-.sliderWrapper {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.slider div {
-    position: relative;
-}
-
-.button {
-    position: absolute;
-    bottom: 35%;
-    z-index: 200;
-    cursor: pointer;
-    color: #2959B7;
-    font-size: 35px;
-}
-
-.sliderNext {
-    right: 5%;
-}
-
-.sliderPrev {
-    left: 5%;
-}
-
-
-
-
-/* arijit css */
-
-.sliderWrapper {
-    width: 100%;
-}
-
-.slide_1 {
-    width: 100%;
-    height: auto;
-}
-
-.slide_1 img {
-    width: 100%;
-    height: auto;
-}
-
-.slide_2 {
-    width: 100%;
-    height: auto;
-}
-
-.slide_2 img {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
-
-.slide_3 {
-    width: 100%;
-    height: auto;
-}
-
-.slide_3 img {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
-
-.projects_details{
-    background-color: red;
-    padding: 50px 0px;
-}
-
-/* service section */
-
-.project_sec{
+.projects{
     padding:50px 0px;
     background-color: #353599;
 }
@@ -1519,7 +1440,7 @@ h6 {
 /* service section */
 
 
-.service_sec{
+.service{
     padding:50px 0px;
     background-color: #fff;
 }
@@ -1645,7 +1566,7 @@ h6 {
 
 /* contact section */
 
-.contact_sec{
+.contact{
     background-color: rgb(13, 164, 194);
     padding: 50px 0px   ;
 }
