@@ -1599,14 +1599,14 @@ h6 {
 
 .contact {
     background-color: rgb(13, 164, 194);
-    padding: 50px 0px;
+    padding: 50px 0px 50px;
 }
 
 .contact_heading {
     margin: auto;
     width: fit-content;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     position: relative;
 }
 
@@ -1644,9 +1644,88 @@ h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
-
+.contact_box label{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+}
+.contact_box input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 6px 20px;
+    margin-bottom: 15px;
+    outline-color: #3DF7C4;
+    border:  2px solid #e9ecef;
+}
+.contact_box input:focus{
+    color: #3DF7C4;
+}
+#input_message{
+    padding: 50px 20px;
+    margin-bottom: 35px;
+}
+#submit_btn{
+    width:150px;
+    background-color: #3DF7C4;
+    color: #fff;
+    border: 2px solid #3DF7C4;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    transition: .4s;
+}
+#submit_btn:hover{
+    background-color: transparent;
+    transition: .4s;
+}
+.contact_details_box h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+.contact_details_box p{
+    font-size: 16px;
+    color: #e9ecef;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+.contact_details_box ul{
+    padding: 0px;
+    margin: 0px;
+}
+.contact_details_box ul li{
+    list-style: none;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.contact_details_box ul li a{
+    color: #fff;
+}
+.contact_details_box ul li i{
+    margin-right: 8px;
+}
+.contact_map{
+    margin-top: 30px;
+}
 @media (max-width:575px) {
     .contact_heading h1 {
         font-size: 25px;
     }
+    .contact_details_box{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
+.cp_sec p{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
 }
