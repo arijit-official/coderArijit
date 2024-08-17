@@ -655,7 +655,7 @@ h6 {
 
 .about_heading h1::after {
     content: "";
-    width: 117px;
+    width: 105px;
     height: 2px;
     background-color: #2959B7;
     position: absolute;
@@ -665,7 +665,7 @@ h6 {
 
 .about_heading h1::before {
     content: "";
-    width: 95px;
+    width: 110px;
     height: 2px;
     background-color: #3DF7C4;
     position: absolute;
