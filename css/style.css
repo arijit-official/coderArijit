@@ -1668,7 +1668,7 @@ h6 {
 
 .contact_heading h1::after {
     content: "";
-    width: 110px;
+    width: 105px;
     height: 2px;
     background-color: #fff;
     position: absolute;
@@ -1678,7 +1678,7 @@ h6 {
 
 .contact_heading h1::before {
     content: "";
-    width: 45px;
+    width: 50px;
     height: 2px;
     background-color: #3DF7C4;
     position: absolute;
