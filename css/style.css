@@ -1527,7 +1527,7 @@ h6 {
     background-color: #275AB5;
 }
 
-.service_sec a {
+.service_box a {
     width: 50px;
     padding: 13px 0px;
     border-radius: 50px;
@@ -1540,12 +1540,12 @@ h6 {
     padding: 11.5px 0px;
 }
 
-.service_sec a i {
+.service_box a i {
     color: #285CB9;
     font-size: 20px;
 }
 
-.service_sec a .icon_size {
+.service_box a .icon_size {
     font-size: 25px;
 }
 
