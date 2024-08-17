@@ -1451,12 +1451,6 @@ h6 {
     padding: 30px;
     text-align: center;
     border-radius: 10px;
-    transition: .4s;
-    overflow: hidden;
-    cursor: pointer;
-}
-.project_box:hover{
-    transform: scale(1.1);
 }
 .project_box a{
     width: 50px;
@@ -1572,12 +1566,6 @@ h6 {
     padding: 30px;
     text-align: center;
     border-radius: 10px;
-    transition: .4s;
-    overflow: hidden;
-    cursor: pointer;
-}
-.service_box:hover{
-    transform: scale(1.1);
 }
 .service_box_1{
     background-color: #285CB9;
