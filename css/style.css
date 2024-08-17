@@ -655,7 +655,7 @@ h6 {
 
 .about_heading h1::after {
     content: "";
-    width: 78px;
+    width: 83px;
     height: 2px;
     background-color: #2959B7;
     position: absolute;
@@ -928,7 +928,7 @@ h6 {
 
 .edu_heading h1::after {
     content: "";
-    width: 168px;
+    width: 142px;
     height: 2px;
     background-color: #fff;
     position: absolute;
