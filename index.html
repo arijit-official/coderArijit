@@ -49,10 +49,10 @@
 
 <body>
 
-     <!-- pre loader -->
+    <!-- pre loader -->
 
 
-     <div id="loader-wrapper">
+    <div id="loader-wrapper">
         <div id="loader">
             <h1 data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">CODER <span>ARIJIT</span>
             </h1>
@@ -580,26 +580,18 @@
             }
         }
 
-        // slick slider js
+        // pre loader js
 
 
-        $('.slider').slick({
-            autoplay: true,
-            pauseOnHover: false
+
+        $(document).ready(function () {
+
+            // Fakes the loading setting a timeout
+            setTimeout(function () {
+                $('body').addClass('loaded');
+            }, 2500);
+
         });
-
-        // NEXT BUTTON
-
-        $('.sliderNext').click(function () {
-            $('.slider').slick('slickNext');
-        });
-
-        // PREVIOUS BUTTON
-
-        $('.sliderPrev').click(function () {
-            $('.slider').slick('slickPrev');
-        });
-
 
 
 
