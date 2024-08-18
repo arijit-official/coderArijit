@@ -15,6 +15,111 @@ h6 {
     font-family: "Roboto", sans-serif;
 }
 
+/* Preloader */
+
+
+#loader h1 {
+    font-size: 35px;
+    color: #fff;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+#loader span{
+    color: #3DF7C4;
+}
+
+/* The Loader */
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+    overflow: hidden;
+
+    fallback {
+        display: none;
+    }
+}
+
+
+#loader {
+    display: block;
+    position: relative;
+    left: 47%;
+    top: 50%;
+    width: 290px;
+    height: 150px;
+    margin: -45px 0 0 -100px;
+    z-index: 11;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: -6px;
+        right: 60px;
+        bottom: 5px;
+        border: 3px solid transparent;
+        border-top-color: #fff;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 43px;
+        left: -6px;
+        right: 60px;
+        bottom: -135px;
+        border: 3px solid transparent;
+        border-top-color: #3DF7C4;
+    }
+}
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #222;
+    z-index: 10;
+}
+
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
+/* Loaded styles */
+
+.loaded #loader-wrapper .loader-section.section-left {
+    transform: translateX(-100%);
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+    transform: translateX(100%);
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: all 0.3s 1s ease-out;
+}
+
+
+
 /* banner section */
 
 .banner_img {
