@@ -24,7 +24,8 @@ h6 {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
 }
-#loader span{
+
+#loader span {
     color: #3DF7C4;
 }
 
@@ -116,6 +117,59 @@ h6 {
     visibility: hidden;
     transform: translateY(-100%);
     transition: all 0.3s 1s ease-out;
+}
+
+
+
+/* custom cursor */
+
+
+.cursor {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    background: transparent;
+    pointer-events: none;
+    z-index: 111;
+    border: 2px solid #3DF7C4;
+    transition: all 0.2s ease-out;
+    animation: moveCursor1 .5s infinite alternate;
+}
+
+.expand {
+    background: transparent;
+    animation: moveCursor2 .5s forwards;
+    border: 1px solid #000;
+}
+
+@keyframes moveCursor1 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.8);
+    }
+}
+
+@keyframes moveCursor2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
 }
 
 
@@ -1743,29 +1797,34 @@ h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
-.contact_box label{
+
+.contact_box label {
     font-size: 18px;
     color: #fff;
     font-family: "Lato", sans-serif;
     font-weight: 600;
 }
-.contact_box input{
+
+.contact_box input {
     width: 100%;
     border-radius: 10px;
     padding: 6px 20px;
     margin-bottom: 15px;
     outline-color: #3DF7C4;
-    border:  2px solid #e9ecef;
+    border: 2px solid #e9ecef;
 }
-.contact_box input:focus{
+
+.contact_box input:focus {
     color: #3DF7C4;
 }
-#input_message{
+
+#input_message {
     padding: 50px 20px;
     margin-bottom: 35px;
 }
-#submit_btn{
-    width:150px;
+
+#submit_btn {
+    width: 150px;
     background-color: #3DF7C4;
     color: #fff;
     border: 2px solid #3DF7C4;
@@ -1774,28 +1833,33 @@ h6 {
     font-weight: 500;
     transition: .4s;
 }
-#submit_btn:hover{
+
+#submit_btn:hover {
     background-color: transparent;
     transition: .4s;
 }
-.contact_details_box h5{
+
+.contact_details_box h5 {
     font-size: 20px;
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     margin-bottom: 13px;
 }
-.contact_details_box p{
+
+.contact_details_box p {
     font-size: 16px;
     color: #e9ecef;
     font-family: "Lato", sans-serif;
     font-weight: 400;
 }
-.contact_details_box ul{
+
+.contact_details_box ul {
     padding: 0px;
     margin: 0px;
 }
-.contact_details_box ul li{
+
+.contact_details_box ul li {
     list-style: none;
     font-size: 16px;
     color: #fff;
@@ -1803,25 +1867,31 @@ h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
-.contact_details_box ul li a{
+
+.contact_details_box ul li a {
     color: #fff;
 }
-.contact_details_box ul li i{
+
+.contact_details_box ul li i {
     margin-right: 8px;
 }
-.contact_map{
+
+.contact_map {
     margin-top: 30px;
 }
+
 @media (max-width:575px) {
     .contact_heading h1 {
         font-size: 25px;
     }
-    .contact_details_box{
+
+    .contact_details_box {
         margin-bottom: 15px;
         margin-top: 15px;
     }
 }
-.cp_sec p{
+
+.cp_sec p {
     margin-bottom: 0px;
     color: #fff;
     font-size: 10px;
