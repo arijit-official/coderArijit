@@ -1556,10 +1556,12 @@ h6 {
 @media (max-width:991px) {
     .project_box_3 {
         margin-top: 30px;
+        height: auto;
     }
 
     .project_box_4 {
         margin-top: 30px;
+        height: auto;
     }
 }
 
@@ -1699,10 +1701,12 @@ h6 {
 @media (max-width:991px) {
     .service_box_3 {
         margin-top: 30px;
+        height: auto;
     }
 
     .service_box_4 {
         margin-top: 30px;
+        height: auto;
     }
 }
 
