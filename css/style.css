@@ -1706,7 +1706,7 @@ h6 {
 
     .service_box_4 {
         margin-top: 30px;
-        height: auto;
+        height: auto    ;
     }
 }
 
@@ -1793,9 +1793,9 @@ h6 {
     border: 2px solid #e9ecef;
 }
 
-.contact_box input:focus {
+/* .contact_box input:focus {
     color: #3DF7C4;
-}
+} */
 
 #input_message {
     padding: 50px 20px;
